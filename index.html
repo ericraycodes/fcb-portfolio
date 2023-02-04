@@ -1,0 +1,56 @@
+<!-- doctype declares the version of the html document.
+	 All HTML documents must start with this declaration.
+	 Tells the browser that this is an HTML 5 version.-->
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<!-- for the symbols and characters to be loaded by the browser. "utf-8" -->
+		<meta charset="utf-8">
+
+		<!-- for document responsiveness to different devices -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- Title of the document. This will appear on the browser tab -->
+		<title>ERIC RAY SALADAR | Web Developer Portfolio</title>
+
+		<!-- Google Fonts: fonts.google.com -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Mono&display=swap" rel="stylesheet">
+
+		<!-- Bootstrap link -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+		<!-- External CSS link.The './' within the href implies the path starts within the same directory -->
+		<link rel="stylesheet" type="text/css" href="./index.css">
+	</head>
+	<body>
+
+		<!-- Container for our layout. Class is an attribute to name our div -->
+
+		<div class="container-fluid">
+
+			<!-- Container. The id is an atrribute to name a tag uniquely -->
+			<!-- 'mt-5' added margin-top -->
+			<section id="landing" class="text-center mt-5">
+
+				<!-- Heading. headings level from 1 - 6 -->
+				<h1>Full Stack Web Developer</h1>
+
+				<p>Hi! My name is Eric. I love building things from scratch.</p>
+
+				<!-- img is a self-closing tag -->
+				<!-- 'img-fluid' allows fluidity to img responsive to device viewport -->
+				<img src="./images/image.png" id="profile" class="img-fluid">
+
+				<!-- hyperlink. 'mailto: ... ' allows the user to promptly open his email app to send to you. -->
+				<a href="mailto:cloudy.nny07@gmail.com" class="btn btn-success btn-lg mt-3">Let's Work Together.</a>
+
+			</section>
+		</div>
+
+		<!-- Bootstrap script -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+	</body>
+</html>
